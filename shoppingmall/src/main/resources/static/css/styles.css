@@ -1,0 +1,30 @@
+/* styles.css */
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header img {
+    width: 100px; /* 적당한 너비로 조정 */
+    height: 50px; /* 적당한 높이로 조정 */
+    object-fit: contain; /* 이미지 비율 유지 */
+}
+
+footer{
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

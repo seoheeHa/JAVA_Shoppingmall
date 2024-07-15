@@ -8,8 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
 
     @GetMapping("/")
-    public String home(Model model) {
-        model.addAttribute("message", "Welcome to the Shopping Mall!");
-        return "home";
+    public String home() {
+               return "home";
     }
 }
